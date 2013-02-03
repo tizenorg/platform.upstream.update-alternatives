@@ -27,3 +27,15 @@ sparc-linux-gnu			sparc
 i486-gnu			hurd-i386
 i486-kfreebsd-gnu		kfreebsd-i386
 x86_64-kfreebsd-gnu		kfreebsd-amd64
++i486-tizen-linux		i386
++ia64-tizen-linux		ia64
++alpha-tizen-linux		alpha
++x86_64-tizen-linux		amd64
++arm-tizen-linux			arm
++arm-tizen-linuxeabi		armel
++hppa-tizen-linux		hppa
++mips-tizen-linux		mips
++mipsel-tizen-linux		mipsel
++powerpc-tizen-linux		powerpc
++s390-tizen-linux		s390
++sparc-tizen-linux		sparc

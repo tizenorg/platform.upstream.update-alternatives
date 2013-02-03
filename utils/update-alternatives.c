@@ -68,7 +68,7 @@ static int opt_force = 0;
 static char *pass_opts[MAX_OPTS];
 static int nb_opts = 0;
 
-#define DPKG_TMP_EXT ".dpkg-tmp"
+#define DPKG_TMP_EXT ".rpm-tmp"
 
 /*
  * Functions.
@@ -77,7 +77,7 @@ static int nb_opts = 0;
 static void
 version(void)
 {
-	printf(_("Debian %s version %s.\n"), PROGNAME, VERSION);
+	printf(_("SuSE %s version %s.\n"), PROGNAME, VERSION);
 	printf("\n");
 
 	printf(_(
@@ -359,7 +359,7 @@ admindir_init(void)
 	const char *basedir, *dpkg_basedir;
 	char *admindir;
 
-	dpkg_basedir = getenv("DPKG_ADMINDIR");
+	dpkg_basedir = getenv("RPM_ADMINDIR");
 	if (dpkg_basedir)
 		basedir = dpkg_basedir;
 	else
