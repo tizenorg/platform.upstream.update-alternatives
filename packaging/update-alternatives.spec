@@ -22,6 +22,7 @@ License:        GPL-2.0+
 Group:          System/Management
 Url:            http://ftp.de.debian.org/debian/pool/main/d/dpkg/
 Source0:        http://ftp.de.debian.org/debian/pool/main/d/dpkg/dpkg_%{version}.tar.bz2
+Source1001: 	update-alternatives.manifest
 BuildRequires:  ncurses-devel
 
 %description
@@ -37,6 +38,7 @@ particular preference.
 
 %prep
 %setup -q -n dpkg-%{version}
+cp %{SOURCE1001} .
 
 %build
 %{configure} \
@@ -59,6 +61,7 @@ install -m 0644 man/%{name}.8 %{buildroot}/%{_mandir}/man8/
 touch %{buildroot}/%{_localstatedir}/log/%{name}.log
 
 %files
+%manifest %{name}.manifest
 %defattr(-,root,root,-)
 %license COPYING
 %dir %{_sysconfdir}/alternatives
