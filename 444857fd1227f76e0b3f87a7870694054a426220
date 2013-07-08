@@ -1,0 +1,8 @@
+Change-Id: I444857fd1227f76e0b3f87a7870694054a426220
+Code-Review+2: Ryan Ware <ware@linux.intel.com>
+Verified+1: Ryan Ware <ware@linux.intel.com>
+Submitted-by: Ryan Ware <ware@linux.intel.com>
+Submitted-at: Mon, 08 Jul 2013 09:39:39 -0700
+Reviewed-on: https://review.tizen.org/gerrit/4879
+Project: platform/upstream/update-alternatives
+Branch: refs/heads/tizen
