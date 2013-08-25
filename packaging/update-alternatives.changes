@@ -1,3 +1,6 @@
+* Sun Aug 25 2013 Chengwei Yang <chengwei.yang@intel.com>
+- Remove debian packaging stuff
+
 * Wed Mar 27 2013 Anas Nashif <anas.nashif@intel.com> upstream/1.16.3@5c11ffb
 - Initial release from git
 
