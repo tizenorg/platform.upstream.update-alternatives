@@ -7,6 +7,7 @@ uclibceabi-linux-arm	uclibc-linux-armel
 uclibc-linux-<cpu>	uclibc-linux-<cpu>
 gnueabihf-linux-arm	armhf
 gnueabi-linux-arm	armel
+gnueabi-linux-aarch64	aarch64
 gnuspe-linux-powerpc	powerpcspe
 gnux32-linux-amd64	x32
 gnulp-linux-i386	lpia
