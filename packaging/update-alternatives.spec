@@ -18,7 +18,7 @@ Name:           update-alternatives
 Version:        1.16.3
 Release:        0
 Summary:        Maintain symbolic links determining default commands
-License:        GPL-2.0+
+License:        GPL-2.0
 Group:          System/Management
 Url:            http://ftp.de.debian.org/debian/pool/main/d/dpkg/
 Source0:        http://ftp.de.debian.org/debian/pool/main/d/dpkg/dpkg_%{version}.tar.bz2
