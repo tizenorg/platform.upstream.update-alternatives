@@ -41,6 +41,9 @@ particular preference.
 cp %{SOURCE1001} .
 
 %build
+export CFLAGS+=" -fvisibility=hidden"
+  export CXXFLAGS+=" -fvisibility=hidden"
+  
 %{configure} \
     --with-admindir=%{admindir} \
     --disable-compiler-warnings # disable for sles10 -Wvla
